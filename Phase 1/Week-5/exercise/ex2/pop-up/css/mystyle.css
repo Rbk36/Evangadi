@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* header part */
+.navbar{
+    background-color: red;
+   
+}
+.navbar ul{
+     width:400px;
+    list-style: none;
+    display: flex;
+margin: 0 auto;
+justify-content: space-between;
+padding:20px 0;
+}
+.navbar ul li button{
+    background-color: red;
+    padding:0 10px;
+    border:solid 3px rgb(29, 153, 202);
+}
+.cool{
+    display: none;
+    /* width:300px;
+    text-align: center;
+    margin: 2% auto;
+    border:solid 3px palevioletred;
+    padding:10px 0; */
+}
+.how{
+    display: none;
+}
+/* section  */
+.wrapper{
+    width:98%;
+    /* height:200px; */
+    background-color: yellow; 
+ border:solid black 1px;
+    margin: 2% auto;
+    /* width:400px;
+    height:450px;
+    display: flex;
+     background-color: yellow; 
+    margin: 2% auto;
+    padding: 2px 2px; */
+}
+/* green div part  */
+.two-green{
+    width:98%;
+display: flex;
+   margin:0 auto;
+    /* width:50%;
+    height:395px;
+    border:solid greenyellow 4px;
+    margin:10px 10px;
+    background-color: white;
+    padding:2px 0; */
+}
+.two-green div{
+    width:49%;
+    height: 182px;
+    background-color: greenyellow;
+    margin:2% auto;
+       border:solid black 1px;
+
+}
+.second-wrapper{
+    width:80%;
+
+    /* display: flex; */
+    /* background-color: yellow; */
+    margin: 2% auto;
+    padding: 2px 2px;
+}
+.second-wrapper .single-gray-wrapper{
+   width:200px;
+   height:185px;
+   background-color: white;
+   border: solid gray 2px;
+   margin:0 auto;
+}
+.single-gray{
+    width:140px;
+    height:158px;
+    background-color: gray;
+     border: solid #777;
+    margin: 5% auto;
+}
+
+.two-gray{
+  display: none;
+    
+}
+footer{
+    background-color: rgba(37, 115, 204, 0.897);
+ 
+  
+}
+footer p{
+      margin-left:15%;
+}
+.phone{
+    margin-left:32%;
+}
+
+@media (min-width:768px){
+.cool{
+  
+    width:300px;
+    text-align: center;
+    margin: 2% auto;
+    border:solid 3px palevioletred;
+    padding:10px 0;
+}
+/* section  */
+.wrapper{
+
+    width:400px;
+    height:450px;
+    display: flex;
+     background-color: yellow; 
+    margin: 2% auto;
+    padding: 2px 2px;
+}
+/* green div part  */
+.two-green{
+   
+    /* width:50%; */
+    height:395px;
+    border:solid greenyellow 4px;
+    margin:10px 10px;
+    background-color: white;
+    padding:2px 0;
+    display: block;
+}
+.two-green div{
+    /* width:49%; */
+    height: 182px;
+    background-color: greenyellow;
+    margin:2% auto;
+       border:solid black 1px;
+
+}
+.second-wrapper{
+   
+
+    display: flex;
+    background-color: yellow;
+ 
+}
+}

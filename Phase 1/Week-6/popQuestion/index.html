@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+   
+  </head>
+  <body>
+    <!-- Header navigation -->
+    <div class="nav-wrapper fixed-top ">
+       
+        <div class="container my-2">
+          <nav class="navbar navbar-toggleable-sm navbar-expand-md">
+            <h2 class="flex row-reverse">My Portfolio</h2>
+            <button
+              class="navbar-toggler navbar-toggler-right"
+              type="button"
+              data-toggle="collapse"
+              data-target=".navbar-collapse"
+            >
+              ☰
+            </button>
+         
+  
+            <div class="navbar-collapse collapse">
+              <ul class="navbar-nav nav-justified w-100 nav-fill">
+                <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger" href="#">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger" href="#">Contact</a>
+                </li>
+            
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+  
+    <!-- <header>
+      <nav>
+        <ul class="list-unstyled m-2">
+          <div>
+              <li >My Portfolio</li>
+          </div>
+          <div class="d-none">
+              <li>Home</li>
+              <li>About</li>
+              <li>Projects</li>
+              <li class="me-2">Contact</li>
+          </div>
+        </ul>
+      </nav>
+    </header> -->
+    <section class="aboutMe d-md-flex justify-content-space">
+      <div><img src="./Resource/boy.png" class="rounded mx-auto d-block" alt="" /></div>
+      <div class="ps-4">
+        <h2 class="mt-md-5">About Me</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, minus!
+        </p>
+      </div>
+    </section>
+    <section class="projects"><h2 class="ps-4">Projects</h2>
+      <div class="icon-wrapper rounded d-md-flex justify-content-space gap-md-2">
+        <div class="card" ><img src="./Resource/bootstrap.jpg" class="rounded"  alt=""><h3 class="p-2">Project 1</h3><h4 class="p-2"> Basics of Bootstrap</h4></div>
+        <div class="card"><img src="./Resource/css.jpg" class="rounded"   alt=""><h3 class="p-2">Project2</h3><h4 class="p-2"> Basics of CSS</h4></div>
+        <div class="card"><img src="./Resource/html.jpg" class="rounded"  alt=""><h3 class="p-2">Project3</h3><h4 class="p-2"> Basics of HTML</h4></div>
+      </div>
+    </section>
+    <section class="contact">
+      <div class="contact-wrapper mx-auto">
+          <h2 class="pt-4">Contact Me</h2>
+          <form action="#" class="my-3 ">
+            <label for="name" class="mb-2">Name</label><br />
+            <input type="text"  class="my-2 rounded border" placeholder="Your Name" /><br />
+            <label for="email" class="mb-2 "></label>Email</label><br />
+            <input type="email" class=" my-2 rounded border" placeholder="Your Email" /><br />
+            <label for="subject" class="mb-2 "></label>Subject</label><br />
+            <input type="text" class="my-2 rounded border" placeholder="Subject" /><br />
+            <label for="message" class="my-2"></label>Message</label><br />
+            <textarea name="Message" class="rounded border " id="" placeholder="Your Message"></textarea
+            ><br />
+            <button type="submit" class="bg-primary border-0 rounded text-white p-2">Send</button>
+          </form>
+      </div>
+    </section>
+  </body>
+   <!-- jQuery -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Bootsrap JS -->
+  <script src="js/bootstrap.js"></script>
+</html>

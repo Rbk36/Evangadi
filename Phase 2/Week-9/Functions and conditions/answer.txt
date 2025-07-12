@@ -1,0 +1,150 @@
+// alert("your JS file is connected!!");
+//Questions on functions
+//Question 1
+// function without parameter
+function myFirst() {
+  console.log("Hello");
+}
+myFirst();
+
+//Question 2
+// function having one parameter
+function mySecond(name) {
+  console.log(`Hello ${name}`);
+}
+let second = mySecond("Rebka");
+// Question 3
+function myThird(anotherName) {
+ mySecond(anotherName);
+}
+myThird("Abebe");
+// Question 4
+// take array as an input
+function myFourth(arr) {
+  // display the first element of the array
+  console.log(arr[0]);
+}
+myFourth([1, 3, "abebe", 23]);
+// Question 5
+function myFifth([a, b]) {
+  console.log(a + b);
+}
+myFifth([1, 3]);
+// Question 6
+function minutesToHoursConverter(minutes) {
+  return minutes * 60;
+}
+console.log(minutesToHoursConverter(5));
+// Question 7
+function increment(number) {
+  return ++number;
+}
+console.log(increment(5));
+// Question 8
+//pseudo code
+// // define the base and height
+// function area(base, height)
+// // multiply the base and height and divide by 2
+// result=base*height/2
+// // return the value
+// return result;
+function area(base, height) {
+  result = (base * height) / 2;
+  return result;
+}
+console.log(area(5, 10));
+// Question 9
+// chicken=2
+// cow=pig=4
+// a,b,c
+// 2 * a + 4(b + c);
+// pseudo code
+// define animal types a,b,c
+// use the formula 2 * a + 4(b + c) to calculate the number of legs
+// return result
+function numberOfLegs(a, b, c) {
+  return 2 * a + 4 * (b + c);
+}
+console.log(numberOfLegs(2, 3, 5));
+console.log(numberOfLegs(1, 2, 3));
+
+// Question 10
+// [a,b]
+// [3*a]
+// pseudo code
+// define the array with two parameters
+// multiply first number by 3
+// return result
+function triple([a, b]) {
+  return 3 * a;
+}
+console.log(triple([2, 3]));
+
+// Questions on Conditional statements and - practice exercise
+// Question 11
+// num1=3
+// num2=4
+// num1==num2=>true
+// pseudo code
+// define the two numbers
+// compare the values
+// return true if comparision is true else false
+function compare(num1, num2) {
+  if (num1 === num2) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+console.log(compare(3, "3"));
+
+// Question 12
+// a%100=0==>true else false
+// // pseudo code
+// define the number to be divided
+// divide the number by100
+// if divided without remainder return true else false
+function divisible(a) {
+  if (a % 100 == 0) {
+    return true;
+  } else {
+    return false;
+  }
+}
+console.log(divisible(1000));
+
+// Question 13
+// a%2==0,even else true
+// pseudo code
+// define the number
+// check if the number is divided by 2 without remainder
+// return even if true else return odd
+
+
+// function evenOrOdd(number){
+//     if (number%2==0){
+//         return '"even"';
+//     }
+//     else {
+//         return '"odd"';
+//     }
+// }
+// console.log(evenOrOdd(146));
+
+// // Question 14
+
+// // number=-ve or>100 invalid score 
+// // pseudo code
+// define score 
+// check if the value is -ve or >100 return 'invalid score'
+// check if valueis b/n 90 and 100
+function adder(a,b) {
+  return a+b;
+}
+function average(a,b) {
+  let sum=adder(a,b);
+  return sum/2;
+}
+
+console.log(average(2,3));

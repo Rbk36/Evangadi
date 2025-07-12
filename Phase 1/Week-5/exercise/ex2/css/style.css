@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+   
+header{
+    background-color: rgb(62, 71, 80);
+  margin-left:2%;
+}
+.navbar{
+    display: flex;
+    justify-content:space-around;
+    margin:2%;
+}
+
+.purple{
+width:150px;
+height:30px;
+background-color: purple;
+margin-top:10px;
+/* margin-right:15rem; */
+}
+.green-icon {
+    width:400px;
+    display: flex;
+   justify-content: end;
+  
+   
+}
+.green-icon div{
+    margin-left: 2%;
+    justify-content: end;
+}
+.green{
+   width:10%; 
+   margin:10px 0 0 5px;
+   background-color: rgb(91, 170, 91);
+}
+.icon{
+    width:10%; 
+   margin-top:10px;
+   background-color: white;  
+}
+.container img{
+    display: flex;
+    margin: 0 auto;
+    width:300px;
+}
+.orange{
+    width:250px;
+    height:50px;
+    background-color: orange;
+    margin: 2% auto;
+}
+.pink{
+    width:250px;
+    height:50px;
+    background-color: rgb(230, 101, 101);
+    margin: 2% auto;
+}
+.green2{
+    width:100%;
+    height:200px;
+    background-color: rgb(91, 170, 91);
+    margin: 2% auto;
+    
+}
+.last img{
+    background-color: lightgray;
+    margin: 0 auto;
+    display: block;
+}
+/* i{
+  width:30px;
+    background-color: brown;
+} */
+
+@media (min-width:800px){
+    .blue{
+        width:100%;
+        height:200px;
+        background-color: rgb(33, 126, 184);
+        margin: 2% auto;
+    }
+    .purple2{
+        width:100%;
+        height:200px;
+        background-color: purple;
+        margin: 2% auto;
+    }
+    .green{
+        width:70%; 
+        flex: row wrap;
+        margin:10px 0 0 5px;
+        background-color: rgb(91, 170, 91);
+     }
+     .orange-pink div{
+        margin-left:3%;
+    }
+    .orange-pink{
+        display: flex;
+    width:400px;
+     margin:3% auto;
+    }
+    .second-container{
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+    .second-container div{
+        margin-left:2%;
+    }
+    .orange2{
+        width:250px;
+        height:200px;
+        background-color:orange;
+        margin: 2% auto; 
+    }
+   
+   .last{
+    display: flex;
+    
+   }
+   .last div{
+    margin-left:2%;
+}
+}

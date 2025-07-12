@@ -1,0 +1,56 @@
+body{
+    font-weight: bold;
+}
+li{
+    list-style: none;
+}
+.yellow{
+ font-size: large;
+    padding: 20px;
+    background-color: #ffff00;
+    width:50%
+}
+.red{
+    font-size: large;
+       padding: 20px;
+       background-color: red;
+       width:50%
+   }
+   .pink{
+    font-size: large;
+       padding: 20px;
+       background-color: pink;
+       width:50%
+   }
+   .green{
+    font-size: large;
+       padding: 20px;
+       background-color:lightgreen;
+       width:50%
+   }
+   .green1{
+    font-size: large;
+       padding: 20px;
+       background-color: rgb(59, 228, 59);
+       width:50%
+   }
+   
+   .blue{
+    font-size: large;
+       padding: 20px;
+       background-color:rgb(42, 42, 237);
+       width:50%
+   }
+   .brown{
+    font-size: large;
+       padding: 20px;
+       background-color:brown;
+       width:50%
+   }
+   .orange{
+    font-size: large;
+       padding: 20px;
+       background-color:orange;
+       width:50%
+   }
+   
